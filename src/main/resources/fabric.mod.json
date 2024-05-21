@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "boolo-mod",
+	"version": "${version}",
+	"name": "Boolo Mod",
+	"description": "This is a classified boolo document",
+	"authors": [
+		"colden"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.colde.boolomod.BooloMod"
+		],
+		"client": [
+			"net.colde.boolomod.BooloModClient"
+		],
+		"fabric-datagen": [
+			"net.colde.boolomod.BooloModDataGenerator"
+		]
+	},
+	"mixins": [
+		"boolo-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
