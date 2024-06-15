@@ -1,0 +1,11 @@
+{
+  "replace" : false,
+  "values" : [
+   "boolomod:ruby_block",
+   "boolomod:raw_ruby_block",
+   "boolomod:endstone_ruby_ore",
+   "boolomod:nether_ruby_ore",
+   "boolomod:deepslate_ruby_ore",
+   "boolomod:ruby_ore"
+  ]
+}

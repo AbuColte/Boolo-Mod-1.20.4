@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "boolomod:block/nether_ruby_ore"
+    }
+  }
+}

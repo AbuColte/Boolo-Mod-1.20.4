@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "boolomod:block/ruby_block"
+    }
+  }
+}

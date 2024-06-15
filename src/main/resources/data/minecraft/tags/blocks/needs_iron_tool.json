@@ -1,0 +1,7 @@
+{
+  "replace" : false,
+  "values" : [
+    "boolomod:ruby_block",
+    "boolomod:raw_ruby_block"
+  ]
+}

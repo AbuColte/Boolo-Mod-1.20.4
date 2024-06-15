@@ -1,5 +1,8 @@
 package net.colde.boolomod;
 
+import net.colde.boolomod.block.ModBlocks;
+import net.colde.boolomod.item.ModItemGroups;
+import net.colde.boolomod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,10 +14,8 @@ public class BooloMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		// This code runs as soon as Minecraft is in a mod-load-ready state.
-		// However, some things (like resources) may still be uninitialized.
-		// Proceed with mild caution.
-
-		LOGGER.info("Hello Fabric world!");
+		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

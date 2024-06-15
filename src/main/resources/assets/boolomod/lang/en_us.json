@@ -1,0 +1,14 @@
+{
+  "item.boolomod.ruby" : "Ruby",
+  "item.boolomod.raw_ruby" : "Raw Ruby",
+  "item.boolomod.metal_detector" : "Metal Detector",
+
+  "itemgroup.ruby" : "Ruby Tutorial Group",
+
+  "block.boolomod.ruby_block" : "Block of Ruby",
+  "block.boolomod.raw_ruby_block" : "Block of Raw Ruby",
+  "block.boolomod.ruby_ore" : "Block of Raw Ruby",
+  "block.boolomod.deepslate_ruby_ore" : "Block of Raw Deepslate Ruby",
+  "block.boolomod.endstone_ruby_ore" : "Block of Raw End Ruby",
+  "block.boolomod.nether_ruby_ore" : "Block of Raw Nether Ruby"
+}

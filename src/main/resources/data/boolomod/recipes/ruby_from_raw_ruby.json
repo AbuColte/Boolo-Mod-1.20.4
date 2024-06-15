@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.50,
+  "ingredient": {
+    "item": "boolomod:raw_ruby"
+  },
+  "result": "boolomod:ruby"
+}
